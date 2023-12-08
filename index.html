@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Website Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts Link For Icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Chats container -->
+  <div class="chat-container"></div>
+
+  <!-- Typing container -->
+
+  <div class="typing-container">
+    <div class="jay">
+      <select id="option">
+        <option>None</option>
+        <option>Basic</option>
+        <option>Completely Familiar</option>
+      </select>
+      <select id="language" style="margin-left: 10px;">
+        <option>English (en)</option>
+        <option> Bengali(bn)</option>
+        <option>Bulgarian (bg) </option>
+        <option>Chinese simplified and, traditional (zh)</option>
+        <option>Croatian (hr) </option>
+        <option>Czech (cs) </option>
+        <option>Danish (da) </option>
+        <option>Dutch (nl) </option>
+        <option>Arabic (ar)</option>
+        <option>Estonian (et) </option>
+        <option>Finnish (fi) </option>
+        <option>French (fr) </option>
+        <option>German (de) </option>
+        <option>Greek (el) </option>
+        <option>Hebrew (iw) </option>
+        <option>Hindi (hi) </option>
+        <option>Hungarian (hu) </option>
+        <option>Indonesian (id) </option>
+        <option>Italian (it) </option>
+        <option>Japanese (ja) </option>
+        <option>Korean (ko) </option>
+        <option>Latvian (lv) </option>
+        <option>Lithuanian (lt) </option>
+        <option>Norwegian (no) </option>
+        <option>Polish (pl) </option>
+        <option>Portuguese (pt) </option>
+        <option>Romanian (ro) </option>
+        <option>Russian (ru) </option>
+        <option>Serbian (sr) </option>
+        <option>Slovak (sk) </option>
+        <option>Slovenian (sl) </option>
+        <option>Spanish (es) </option>
+        <option>Swahili (sw) </option>
+        <option>Swedish (sv) </option>
+        <option>Thai (th) </option>
+        <option>Turkish (tr) </option>
+        <option>Ukrainian (uk) </option>
+        <option>Vietnamese (vi) </option>
+      </select>
+      <input type="text" placeholder="valid url" id="url">
+    </div>
+    <div class="typing-content">
+      <div class="typing-textarea">
+        <textarea id="chat-input" spellcheck="false" placeholder="Enter your question with respect to URL here"
+          required></textarea>
+        <span id="send-btn" class="material-symbols-rounded">send</span>
+      </div>
+      <div class="typing-controls">
+        <span id="theme-btn" class="material-symbols-rounded">light_mode</span>
+        <span id="delete-btn" class="material-symbols-rounded">delete</span>
+      </div>
+    </div>
+
+</body>
+
+</html>
