@@ -55,7 +55,7 @@ const getChatResponse = async (incomingChatDiv) => {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
-                "githubUrl": url.value,
+                "url": url.value,
                 "question": userText,
                 "level": option.value,
                 "language" : language.value
